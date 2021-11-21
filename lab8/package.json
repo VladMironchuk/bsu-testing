@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha --timeout 6000"
+    "test": "cd src && npx mocha --timeout 25000"
   },
   "keywords": [],
   "author": "",
