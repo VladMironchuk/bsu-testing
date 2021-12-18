@@ -8,6 +8,12 @@
   Expected result:  
     Pop up "Гибкий поиск" must be shown 
  
-## Test Case 2: <br>
+## Test Case 2:   
+  Steps:  
+    1. Go to https://www.airbnb.ru  
+    2. Click "Гибкий поиск" button  
+  Expected result:  
+    Should be redurected to www.airbnb.ru/s/homes 
+## Test Case 3:   
     
 ###### Mironchuk Vladislav
