@@ -24,8 +24,9 @@
       3. Click "Искать" button  
   Expected result:  
     Should be redirected to https://www.airbnb.ru/s/Москва/homes  
+    
 ## Test Case 4: 
-    Steps:  
+   Steps:  
         1. Go to https://www.airbnb.ru/s/Москва/homes   
         2. Choose "" section  
         3. Set 2000 in "мин. цена" field and 5000 in "максю цена" field  
