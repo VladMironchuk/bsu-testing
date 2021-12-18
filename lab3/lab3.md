@@ -1,17 +1,86 @@
-# Airbnb
-### Functional Test Cases 
+[Airbnb](https://www.airbnb.ru)
+# Functional Test Cases 
 
-* При нажатии на иконку поиска проверить заполнено ли поле "Место", и если нет, то сделать фокус на этом поле.
-* При получении списка жилья справа отображается карта, причем локация соответствует локации, веденной пользователем.
-* Список жилья слева относится к жилью, которое расположено непосредственно в видимой части карты.
-* При увеличении масштаба либо перемещении центра карты пользователем, список жилья обновляется.
-* После нажатия кнопки "Выбрать дату", при выборе поля "Прибытие" и пустом поле "Выезд" в поле "Выезд" указывается завтрашнее число.
-* При выборе чекбокса "Отдельная комната" в фильтре "Тип жилья" в списке должны быть только комнаты.
-* При изменении ползунка в фильтре "Цена" цена жилья в списке соответствует диапазону цен в фильтре.
-* При клике на кнопку "Добавить в избранное" открывается pop-up с вишлистами пользователя и кнопкой "Создать вишлист".
-  Выбранное жилье должно быть в выбранном вишлисте пользователя.
-* При клике на жилье, открывается соответствующая страница
-* При клике на кнопку "Связаться с хозяином" открывается форма для вопроса и список часто задаваемых вопросов.
-  Данный список должен относиться именно к данному хозяину. 
+
+## Test Case 1: 
+  Steps:  
+    1. Go to https://www.airbnb.ru  
+    2. Do not fill "Местоположение" field   
+    3. Click "Искать" button  
+  Expected result:  
+    Pop up "Гибкий поиск" must be shown 
+ 
+## Test Case 2:   
+  Steps:  
+    1. Go to https://www.airbnb.ru  
+    2. Click "Гибкий поиск" button  
+  Expected result:  
+    Should be redurected to www.airbnb.ru/s/homes   
+    
+## Test Case 3:   
+  Steps:  
+      1. Go to https://www.airbnb.ru  
+      2. Enter "Москва" in "Местоположение" field   
+      3. Click "Искать" button  
+  Expected result:  
+    Should be redirected to https://www.airbnb.ru/s/Москва/homes  
+    
+## Test Case 4: 
+   Steps:  
+        1. Go to https://www.airbnb.ru/s/Москва/homes   
+        2. Choose "Цена" section  
+        3. Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
+        4. Click "Сохранить" button
+    Expected result:  
+        List of accomodation whose price is from 2000 to 5000
+    
+## Test Case 5:   
+  Steps:  
+     1. Go to https://www.airbnb.ru/s/Москва/homes   
+     2. Choose "Цена" section  
+     3. Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
+     4. Click "Очистить" button   
+  Exprected result:   
+      "мин. цена" field value must be 740
+      
+## Test Case 6:   
+  Steps:  
+     1. Go to https://www.airbnb.ru/s/Москва/homes   
+     2. Click like(heart) button in any item of the list  
+  Exprected result: 
+      Pop up window with authorization form must be shown
+      
+## Test Case 7:   
+  Steps:  
+     1. Go to https://www.airbnb.ru/s/Минск/homes   
+     2. Click "Тип жилья" section  
+     3. Choose "Отдельная комната" checkbox  
+     4. Click "Сохранить" button  
+  Exprected result:   
+      Subtitle of any item must be "Отдельная комната, Минск"
+      
+## Test Case 8:   
+  Steps:  
+     1. Go to https://www.airbnb.ru  
+     2. Click "Сдайте жильё" button  
+  Exprected result: 
+     Should be redirected to https://www.airbnb.ru/host/homes   
+     
+## Test Case 9:   
+  Steps:  
+     1. Go to https://www.airbnb.ru  
+     2. Click 'globe' button  
+     3. In section "" choose "English"
+  Exprected result:   
+     In search form title of field "Местоположение" must be replaced with "Location"
+     
+## Test Case 10:   
+  Steps:  
+     1. Go to https://www.airbnb.ru  
+     2. Click the drop-down list  
+     3. Choose ""
+  Exprected result:   
+     Pop up window with authorization form must be shown
+      
 
 ###### Mironchuk Vladislav
