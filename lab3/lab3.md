@@ -55,8 +55,8 @@
      1. Go to https://www.airbnb.ru/s/Минск/homes   
      2. Click "Тип жилья" section  
      3. Choose "Отдельная комната" checkbox  
-     4. Click "Сохранить" button
-  Exprected result: 
+     4. Click "Сохранить" button  
+  Exprected result:   
       Subtitle of any item must be "Отдельная комната, Минск"
       
 ## Test Case 8:   
