@@ -16,8 +16,8 @@ describe('Airbnb home page', () => {
   it('Should display pop up which allows you to enter a place', async () => {
     try {
       const isVisible = await airbnbHomePage
-        .clickElement("//*[@id=\"search-tabpanel\"]/div/div[5]/div[2]/button")
-        .isVisible("//*[@id=\"search-tabpanel\"]/div/div[1]/div/div/div")
+        .clickSearchButton()
+        .isPopUpIsVisible()
       assert.isTrue(isVisible)
     } finally {
       await driver.quit();

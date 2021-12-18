@@ -4,6 +4,9 @@ class AirbnbHomePage extends Page {
 
   static HOME_PAGE = 'https://www.airbnb.ru'
 
+  static searchButtonLocator = "//*[@id=\"search-tabpanel\"]//button"
+  static popUpLocator = "//*[@id=\"bigsearch-query-location-listbox\"]"
+
   constructor(driver) {
     super(driver);
   }
@@ -15,12 +18,16 @@ class AirbnbHomePage extends Page {
     return this
   }
 
-  clickElement(xPathLocator) {
+  clickSearchButton() {
     (async () => {
-      const element = await super.findElementByXpath(xPathLocator)
+      const element = await super.findElementByXpath(AirbnbHomePage.searchButtonLocator)
       element.click()
     })()
     return this
+  }
+
+  isPopUpIsVisible() {
+    return this.isVisible(AirbnbHomePage.popUpLocator)
   }
 }
 
