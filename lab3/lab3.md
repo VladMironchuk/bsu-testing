@@ -71,7 +71,7 @@
      1. Go to https://www.airbnb.ru  
      2. Click 'globe' button  
      3. In section "" choose "English"
-  Exprected result: 
+  Exprected result:   
      In search form title of field "Местоположение" must be replaced with "Location"
      
 ## Test Case 10:   
