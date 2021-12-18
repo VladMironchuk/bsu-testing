@@ -40,6 +40,15 @@
      2. Choose "Цена" section  
      3. Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
      4. Click "Очистить" button   
-  Exprected result: 
+  Exprected result:   
       "мин. цена" field value must be 740
+      
+## Test Case 6:   
+  Steps:  
+     1. Go to https://www.airbnb.ru/s/Москва/homes   
+     2. Click like(heart) button in any item of the list  
+  Exprected result: 
+      Pop up window with authorization form must be shown
+      
+
 ###### Mironchuk Vladislav
