@@ -28,8 +28,18 @@
 ## Test Case 4: 
    Steps:  
         1. Go to https://www.airbnb.ru/s/Москва/homes   
-        2. Choose "" section  
-        3. Set 2000 in "мин. цена" field and 5000 in "максю цена" field  
+        2. Choose "Цена" section  
+        3. Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
         4. Click "Сохранить" button
-    Expected result: List of accomodation whose price is from 2000 to 5000
+    Expected result:  
+        List of accomodation whose price is from 2000 to 5000
+    
+## Test Case 5:   
+  Steps:  
+     1. Go to https://www.airbnb.ru/s/Москва/homes   
+     2. Choose "Цена" section  
+     3. Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
+     4. Click "Очистить" button   
+  Exprected result: 
+      "мин. цена" field value must be 740
 ###### Mironchuk Vladislav
