@@ -29,39 +29,39 @@
    - Should be redirected to https://www.airbnb.ru/s/Москва/homes  
     
 ## Test Case 4: 
-   Steps:  
-    - Go to https://www.airbnb.ru/s/Москва/homes     
-    - Choose "Цена" section 
-    - Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
-    - Click "Сохранить" button  
+  Steps:  
+   - Go to https://www.airbnb.ru/s/Москва/homes     
+   - Choose "Цена" section 
+   - Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
+   - Click "Сохранить" button  
    
-   Expected result:  
-    - List of accomodation whose price is from 2000 to 5000
+  Expected result:  
+   - List of accomodation whose price is from 2000 to 5000
     
 ## Test Case 5:   
   Steps:  
-     1. Go to https://www.airbnb.ru/s/Москва/homes   
-     2. Choose "Цена" section  
-     3. Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
-     4. Click "Очистить" button   
+    - Go to https://www.airbnb.ru/s/Москва/homes   
+    - Choose "Цена" section  
+    - Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
+    - Click "Очистить" button   
   Exprected result:   
-      "мин. цена" field value must be 740
+    - "мин. цена" field value must be 740
       
 ## Test Case 6:   
   Steps:  
-     1. Go to https://www.airbnb.ru/s/Москва/homes   
-     2. Click like(heart) button in any item of the list  
+    - Go to https://www.airbnb.ru/s/Москва/homes   
+    - Click like(heart) button in any item of the list  
   Exprected result: 
-      Pop up window with authorization form must be shown
+    - Pop up window with authorization form must be shown
       
 ## Test Case 7:   
   Steps:  
-     1. Go to https://www.airbnb.ru/s/Минск/homes   
-     2. Click "Тип жилья" section  
-     3. Choose "Отдельная комната" checkbox  
-     4. Click "Сохранить" button  
+    - Go to https://www.airbnb.ru/s/Минск/homes   
+    - Click "Тип жилья" section  
+    - Choose "Отдельная комната" checkbox  
+    - Click "Сохранить" button  
   Exprected result:   
-      Subtitle of any item must be "Отдельная комната, Минск"
+    - Subtitle of any item must be "Отдельная комната, Минск"
       
 ## Test Case 8:   
   Steps:  
