@@ -7,8 +7,8 @@
    - Go to https://www.airbnb.ru  
    - Do not fill "Местоположение" field   
    - Click "Искать" button    
-  Expected result:  
-    - Pop up "Гибкий поиск" must be shown 
+ Expected result:  
+   - Pop up "Гибкий поиск" must be shown 
  
 ## Test Case 2:   
   Steps:  
