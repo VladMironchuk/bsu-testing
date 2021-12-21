@@ -6,7 +6,8 @@
   Steps:  
    - Go to https://www.airbnb.ru  
    - Do not fill "Местоположение" field   
-   - Click "Искать" button    
+   - Click "Искать" button  
+   
  Expected result:  
    - Pop up "Гибкий поиск" must be shown 
  
