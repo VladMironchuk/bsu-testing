@@ -56,35 +56,35 @@
       
 ## Test Case 7:   
   Steps:  
-   - Go to https://www.airbnb.ru/s/Минск/homes   
+   - Go to https://www.airbnb.ru/s/Москва/homes   
    - Click "Тип жилья" section  
    - Choose "Отдельная комната" checkbox  
    - Click "Сохранить" button  
   Exprected result:   
-   - Subtitle of any item must be "Отдельная комната, Минск"
+   - Subtitle of any item must be "Отдельная комната, Москва"
       
 ## Test Case 8:   
   Steps:  
-     1. Go to https://www.airbnb.ru  
-     2. Click "Сдайте жильё" button  
+   - Go to https://www.airbnb.ru  
+   - Click "Сдайте жильё" button  
   Exprected result: 
-     Should be redirected to https://www.airbnb.ru/host/homes   
+   - Should be redirected to https://www.airbnb.ru/host/homes   
      
 ## Test Case 9:   
   Steps:  
-     1. Go to https://www.airbnb.ru  
-     2. Click 'globe' button  
-     3. In section "" choose "English"
+   - Go to https://www.airbnb.ru  
+   - Click 'globe' button  
+   - In section "Рекомендуемые языки и регионы" choose "English"
   Exprected result:   
-     In search form title of field "Местоположение" must be replaced with "Location"
+   - In search form title of field "Местоположение" must be replaced with "Location"
      
 ## Test Case 10:   
   Steps:  
-     1. Go to https://www.airbnb.ru  
-     2. Click the drop-down list  
-     3. Choose ""
+   - Go to https://www.airbnb.ru  
+   - Click the drop-down list  
+   - Choose "Войти"
   Exprected result:   
-     Pop up window with authorization form must be shown
+   - Pop up window with authorization form must be shown
       
 
 ###### Mironchuk Vladislav
