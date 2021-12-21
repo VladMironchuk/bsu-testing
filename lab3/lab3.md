@@ -91,6 +91,3 @@
   
   Exprected result:   
    - Pop up window with authorization form must be shown
-      
-
-###### Mironchuk Vladislav
