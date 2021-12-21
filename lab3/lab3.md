@@ -4,35 +4,35 @@
 
 ## Test Case 1: 
   Steps:  
-   - 1. Go to https://www.airbnb.ru  
-   - 2. Do not fill "Местоположение" field   
-   - 3. Click "Искать" button  
+   - Go to https://www.airbnb.ru  
+   - Do not fill "Местоположение" field   
+   - Click "Искать" button  
   Expected result:  
     Pop up "Гибкий поиск" must be shown 
  
 ## Test Case 2:   
   Steps:  
-    1. Go to https://www.airbnb.ru  
-    2. Click "Гибкий поиск" button  
+    - Go to https://www.airbnb.ru  
+    - Click "Гибкий поиск" button  
   Expected result:  
-    Should be redurected to www.airbnb.ru/s/homes   
+    - Should be redurected to www.airbnb.ru/s/homes   
     
 ## Test Case 3:   
   Steps:  
-      1. Go to https://www.airbnb.ru  
-      2. Enter "Москва" in "Местоположение" field   
-      3. Click "Искать" button  
+      - Go to https://www.airbnb.ru  
+      - Enter "Москва" in "Местоположение" field   
+      - Click "Искать" button  
   Expected result:  
-    Should be redirected to https://www.airbnb.ru/s/Москва/homes  
+    - Should be redirected to https://www.airbnb.ru/s/Москва/homes  
     
 ## Test Case 4: 
    Steps:  
-        1. Go to https://www.airbnb.ru/s/Москва/homes   
-        2. Choose "Цена" section  
-        3. Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
-        4. Click "Сохранить" button
+    - Go to https://www.airbnb.ru/s/Москва/homes   
+    - Choose "Цена" section  
+    - Set 2000 in "мин. цена" field and 5000 in "макс. цена" field  
+    - Click "Сохранить" button
     Expected result:  
-        List of accomodation whose price is from 2000 to 5000
+    - List of accomodation whose price is from 2000 to 5000
     
 ## Test Case 5:   
   Steps:  
