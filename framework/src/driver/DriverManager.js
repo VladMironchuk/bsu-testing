@@ -37,7 +37,7 @@ class DriverManager {
       case Browser.CHROME:
         builder.setChromeOptions(
           new ChromeOptions()
-            // .addArguments(...optionsFlags)
+            .addArguments(...optionsFlags)
         );
         break;
       case Browser.FIREFOX:
@@ -49,7 +49,7 @@ class DriverManager {
 
     const driver = builder.build();
     await driver.manage()
-      // .deleteAllCookies();
+      .deleteAllCookies();
     await driver.manage().window()
       .maximize();
     return driver;
