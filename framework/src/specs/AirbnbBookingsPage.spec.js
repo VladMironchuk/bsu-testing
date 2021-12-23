@@ -1,6 +1,7 @@
 const DriverManager = require("../driver/DriverManager")
 const logger = require("../utils/logger")
 const AirbnbBookingsPage = require('../pages/AirbnbBookingsPage')
+const DataReader = require("../service/DataReader")
 
 describe("Booking home page", () => {
   let driver
@@ -31,10 +32,9 @@ describe("Booking home page", () => {
     ).toBeTruthy()
   })
 
-  it("vrvr", async () => {
+  it("price form should clear correctly", async () => {
     expect(
       await airbnbBookingPage.sendPriceForm()
-    ).toEqual("740")
+    ).toEqual(await DataReader.read("priceForm.minPrice"))
   })
-
 })

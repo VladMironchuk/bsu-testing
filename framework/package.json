@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --testTimeout=25000 --config=src/specs/setup/dev.chrome.js --coverage --coverageReporters=\"cobertura\"",
-    "test:home": "jest src/specs/AirbnbHomePage.spec.js --testTimeout=60000 --config=src/specs/setup/dev.chrome.js",
-    "test:booking": "jest src/specs/AirbnbBookingsPage.spec.js --testTimeout=60000 --config=src/specs/setup/dev.chrome.js"
+    "test:home": "jest src/specs/AirbnbHomePage.spec.js --testTimeout=30000 --config=src/specs/setup/dev.chrome.js",
+    "test:booking": "jest src/specs/AirbnbBookingsPage.spec.js --testTimeout=30000 --config=src/specs/setup/dev.chrome.js"
   },
   "keywords": [],
   "author": "",

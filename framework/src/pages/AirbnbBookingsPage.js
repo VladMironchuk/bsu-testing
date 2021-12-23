@@ -24,16 +24,20 @@ class AirbnbBookingsPage extends BasePage {
     (async () => {
       await this.driver.get(AirbnbBookingsPage.pageUrl)
     })()
+
+    logger.info("Home page opened");
     return this
   }
 
   isOpened() {
+    logger.info("Home page initialized")
     return super.findElementByLocator(AirbnbBookingsPage.bookingsSubtitleLocator)
   }
 
   async likeItemInList() {
     await this.findElementByLocator(AirbnbBookingsPage.addToFavouriteButton).click()
 
+    logger.info("like button clicked")
     return this.isInitialized(AirbnbBookingsPage.loginPopUp)
   }
 
@@ -45,6 +49,7 @@ class AirbnbBookingsPage extends BasePage {
     await this.findElementByLocator(AirbnbBookingsPage.priceFilterLocator).click()
     await this.findElementByLocator(AirbnbBookingsPage.priceFilterClearButton).click()
 
+    logger.info("price filter was cleared")
     return await this.findElementByLocator(AirbnbBookingsPage.minPriceInputLocator).getAttribute("value")
   }
 
