@@ -1,0 +1,24 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testTimeout=25000 --config=src/specs/setup/dev.chrome.js --coverage --coverageReporters=\"cobertura\"",
+    "test:home": "jest src/specs/AirbnbHomePage.spec.js --testTimeout=60000 --config=src/specs/setup/dev.chrome.js",
+    "test:booking": "jest src/specs/AirbnbBookingsPage.spec.js --testTimeout=60000 --config=src/specs/setup/dev.chrome.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^96.0.0",
+    "geckodriver": "^3.0.1",
+    "selenium-webdriver": "^4.1.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5"
+  }
+}
